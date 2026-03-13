@@ -1,0 +1,160 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f5f5f5;
+color:#333;
+text-align:center;
+}
+
+header{
+background:linear-gradient(135deg,#ff9ecf,#ff4fa3,#c21874);
+color:white;
+padding:80px 20px;
+}
+
+header h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+}
+
+.boton{
+display:inline-block;
+margin-top:20px;
+background:#25D366;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:30px;
+font-size:18px;
+}
+
+.servicios{
+padding:60px 20px;
+}
+
+.contenedor{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.portfolio{
+background:#eee;
+padding:60px 20px;
+}
+
+.boton2{
+display:inline-block;
+margin-top:20px;
+background:#E1306C;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:30px;
+}
+
+footer{
+background:#111;
+color:white;
+padding:20px;
+}
+
+
+/* BOTON WHATSAPP */
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
+animation: flotar 2s infinite;
+}
+
+.whatsapp-float img{
+width:35px;
+}
+
+
+/* BOTON INSTAGRAM */
+
+.instagram-float{
+position:fixed;
+bottom:90px;
+right:20px;
+width:60px;
+height:60px;
+background:#E1306C;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+z-index:1000;
+}
+
+.instagram-float img{
+width:35px;
+}
+
+
+/* EFECTO HOVER */
+
+.whatsapp-float:hover,
+.instagram-float:hover{
+transform:scale(1.1);
+}
+
+
+/* ANIMACION */
+
+@keyframes flotar{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-6px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+.titulo{
+font-size:60px;
+font-weight:bold;
+letter-spacing:3px;
+background:linear-gradient(135deg,#ffd1e8,#ff7eb3,#ff2e93);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+text-shadow:2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.subtitulo{
+font-size:22px;
+margin-top:10px;
+color:white;
+}
